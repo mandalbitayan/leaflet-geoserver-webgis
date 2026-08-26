@@ -22,7 +22,7 @@ map.on("click",onMapClick)
 
 
 const nyc_homicides = L.tileLayer.wms(
-    "http://localhost:8080/geoserver/NYC_subway_stations/wms",
+    "http://localhost:8080/geoserver/nyc/wms",
     {
         layers: "NYC_subway_stations:nyc_homicides",
         format: "image/png",
@@ -32,7 +32,7 @@ const nyc_homicides = L.tileLayer.wms(
 );
 
 const nyc_subway_stations = L.tileLayer.wms(
-    "http://localhost:8080/geoserver/NYC_subway_stations/wms",
+    "http://localhost:8080/geoserver/nyc/wms",
     {
         layers: "NYC_subway_stations:nyc_subway_stations",
         format: "image/png",
@@ -42,7 +42,7 @@ const nyc_subway_stations = L.tileLayer.wms(
 );
 
 const nyc_neighborhoods = L.tileLayer.wms(
-    "http://localhost:8080/geoserver/NYC_subway_stations/wms",
+    "http://localhost:8080/geoserver/nyc/wms",
     {
         layers: "NYC_subway_stations:nyc_neighborhoods",
         format: "image/png",
@@ -51,7 +51,7 @@ const nyc_neighborhoods = L.tileLayer.wms(
     }
 );
 const nyc_census_blocks = L.tileLayer.wms(
-    "http://localhost:8080/geoserver/NYC_subway_stations/wms",
+    "http://localhost:8080/geoserver/nyc/wms",
     {
         layers: "NYC_subway_stations:nyc_census_blocks",
         format: "image/png",
@@ -61,7 +61,7 @@ const nyc_census_blocks = L.tileLayer.wms(
 );
 
 const nyc_streets = L.tileLayer.wms(
-    "http://localhost:8080/geoserver/NYC_subway_stations/wms",
+    "http://localhost:8080/geoserver/nyc/wms",
     {
         layers: "NYC_subway_stations:nyc_streets",
         format: "image/png",
