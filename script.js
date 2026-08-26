@@ -36,7 +36,7 @@ const marker = L.marker(
 // Workspace = nyc
 
 const geoserverURL =
-    "http://localhost:8080/geoserver/nyc/wms";
+    "https://fibre-last-competent-diy.trycloudflare.com/geoserver/nyc/wms";;
 
 const workspace =
     "nyc";
