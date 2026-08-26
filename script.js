@@ -36,7 +36,7 @@ const marker = L.marker(
 // Workspace = nyc
 
 const geoserverURL =
-    "http://localhost:8080/geoserver/nyc/wms";
+    "https://nottingham-joins-cardiovascular-segment.trycloudflare.com/geoserver/nyc/wms";
 
 const workspace =
     "nyc";
